@@ -9,7 +9,7 @@ const mongoose = require("mongoose")
 const methodOverride = require('method-override');
 const fruitsController = require("./controllers/fruitController")
 
-// Connection to Databasde
+// Connection to Database
 mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
